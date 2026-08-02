@@ -12,7 +12,7 @@ For this reason, the recommended setup is using [MinIO](https://min.io/) to self
 Install [Go](https://go.dev/doc/install) and [git](https://git-scm.com/downloads), then clone and enter the repository
 
 ```bash
-$ git clone https://github.com/PretendoNetwork/super-mario-maker
+$ git clone https://github.com/SamtendoNetwork/super-mario-maker
 $ cd super-mario-maker
 ```
 
