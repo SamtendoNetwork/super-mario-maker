@@ -37,7 +37,7 @@ func RecommendedCourseSearchObject(err error, packet nex.PacketInterface, callID
 
 	// HACK The database load is exponential here and
 	length := int(param.ResultRange.Length)
-	maxLength := 25
+	maxLength := 50
 	if length < 0 || length > maxLength {
 		globals.Logger.Warningf("Limiting request to %d courses (was %d)", maxLength, length)
 		length = maxLength
